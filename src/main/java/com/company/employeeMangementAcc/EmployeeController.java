@@ -34,6 +34,7 @@ public class EmployeeController {
         logger.fatal("This is a FATAL message");
         System.out.println("Hello harshad Task1");
         System.out.println("Task3");
+        System.out.println("Task2");
     }
 
     @PostMapping(value="/save",consumes= MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
