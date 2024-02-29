@@ -33,6 +33,7 @@ public class EmployeeController {
         logger.error("This is an ERROR message");
         logger.fatal("This is a FATAL message");
         System.out.println("Hello harshad Task1");
+        System.out.println("Task3");
     }
 
     @PostMapping(value="/save",consumes= MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
